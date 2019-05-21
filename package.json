@@ -1,0 +1,34 @@
+{
+  "name": "ghost-backup",
+  "version": "1.0.0",
+  "description": "backup a self-hosted ghost instance",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robireton/ghost-backup.git"
+  },
+  "keywords": [
+    "ghost",
+    "node",
+    "node.js",
+    "mysql",
+    "backup",
+    "utility"
+  ],
+  "author": "Rob Ireton <rob@ireton.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robireton/ghost-backup/issues"
+  },
+  "homepage": "https://github.com/robireton/ghost-backup#readme",
+  "dependencies": {
+    "fs-extra": "^8.0.1",
+    "mysqldump": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^7.0.0"
+  }
+}
