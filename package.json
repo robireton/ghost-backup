@@ -26,9 +26,13 @@
   "homepage": "https://github.com/robireton/ghost-backup#readme",
   "dependencies": {
     "fs-extra": "^8.0.1",
-    "mysqldump": "^3.0.0"
+    "mysqldump": "^3.0.0",
+    "tar": "^4.4.8",
+    "tmp": "^0.1.0"
   },
   "devDependencies": {
-    "@types/fs-extra": "^7.0.0"
+    "@types/fs-extra": "^7.0.0",
+    "@types/tar": "^4.0.0",
+    "@types/tmp": "^0.1.0"
   }
 }
