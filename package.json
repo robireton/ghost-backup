@@ -1,5 +1,5 @@
 {
-  "name": "ghost-backup",
+  "name": "@robireton/ghost-backup",
   "version": "0.0.1",
   "description": "backup a self-hosted ghost instance",
   "main": "./lib/backup.js",
